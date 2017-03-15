@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Domain", "OAuth.Domain\OAuth.Domain.csproj", "{6B6924A8-89B1-4A36-8785-806B30511812}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{C88AA7C6-405B-4886-AEC4-B788EC94CB5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C1B615CF-97A2-4998-A521-1FAFB7F89CDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{6EAF07C6-EE78-4383-9312-58406B95FE7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{290172FC-3F29-4550-BEF7-9601E079277F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Application", "OAuth.Application\OAuth.Application.csproj", "{144CECB7-D5C2-4879-AF62-7C621ED610F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Infrastructure", "OAuth.Infrastructure\OAuth.Infrastructure.csproj", "{7D5AD5D4-F8DA-46AB-9C83-06B6FA499A67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Web", "OAuth.Web\OAuth.Web.csproj", "{B4FCBF15-F980-453A-90FD-239914B4373B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{7C48E888-442B-46DA-8695-DAA6197EBD46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{BD3E7314-61FA-4B88-965C-F9DCFD975B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth.Facade", "Facade\OAuth.Facade.csproj", "{70B92F1D-067C-4489-B179-F68574752E1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B6924A8-89B1-4A36-8785-806B30511812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6924A8-89B1-4A36-8785-806B30511812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6924A8-89B1-4A36-8785-806B30511812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6924A8-89B1-4A36-8785-806B30511812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{144CECB7-D5C2-4879-AF62-7C621ED610F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{144CECB7-D5C2-4879-AF62-7C621ED610F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{144CECB7-D5C2-4879-AF62-7C621ED610F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{144CECB7-D5C2-4879-AF62-7C621ED610F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5AD5D4-F8DA-46AB-9C83-06B6FA499A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5AD5D4-F8DA-46AB-9C83-06B6FA499A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5AD5D4-F8DA-46AB-9C83-06B6FA499A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5AD5D4-F8DA-46AB-9C83-06B6FA499A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4FCBF15-F980-453A-90FD-239914B4373B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4FCBF15-F980-453A-90FD-239914B4373B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4FCBF15-F980-453A-90FD-239914B4373B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4FCBF15-F980-453A-90FD-239914B4373B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C48E888-442B-46DA-8695-DAA6197EBD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C48E888-442B-46DA-8695-DAA6197EBD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C48E888-442B-46DA-8695-DAA6197EBD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C48E888-442B-46DA-8695-DAA6197EBD46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B92F1D-067C-4489-B179-F68574752E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B92F1D-067C-4489-B179-F68574752E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B92F1D-067C-4489-B179-F68574752E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B92F1D-067C-4489-B179-F68574752E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B6924A8-89B1-4A36-8785-806B30511812} = {C88AA7C6-405B-4886-AEC4-B788EC94CB5C}
+		{144CECB7-D5C2-4879-AF62-7C621ED610F5} = {6EAF07C6-EE78-4383-9312-58406B95FE7E}
+		{7D5AD5D4-F8DA-46AB-9C83-06B6FA499A67} = {C1B615CF-97A2-4998-A521-1FAFB7F89CDE}
+		{B4FCBF15-F980-453A-90FD-239914B4373B} = {290172FC-3F29-4550-BEF7-9601E079277F}
+		{70B92F1D-067C-4489-B179-F68574752E1C} = {BD3E7314-61FA-4B88-965C-F9DCFD975B4B}
+	EndGlobalSection
+EndGlobal
