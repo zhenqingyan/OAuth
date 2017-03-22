@@ -13,7 +13,7 @@ namespace OAuth.Domain
         bool Update(TAggregate entity);
         bool Delete(TAggregate entity);
         bool DeleteByGuid(object key);
-        IEnumerable<TAggregate> FindAll();
+        IEnumerable<TAggregate> FindAll(string wheresql="",object obj=null);
 
         TAggregate FindOne(object key);
     }

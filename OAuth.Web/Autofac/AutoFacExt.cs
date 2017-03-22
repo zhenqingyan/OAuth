@@ -34,6 +34,11 @@ namespace OAuth.Web
 
         public static ContainerBuilder Builder { get { return _builder; } }
 
+        public static void SetContainer(IContainer container)
+        {
+            _container = container;
+        }
+
         public static T GetFromFac<T>()
         {
             return _container.Resolve<T>();

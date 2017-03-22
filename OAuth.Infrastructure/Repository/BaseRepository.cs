@@ -36,6 +36,10 @@ namespace OAuth.Infrastructure
             get { return _tableName; }
         }
       
+        public string KeyName
+        {
+            get { return _keyName; }
+        }
 
         public bool Delete(TAggregate entity)
         {
@@ -53,7 +57,7 @@ namespace OAuth.Infrastructure
             throw new NotImplementedException();
         }
 
-        public IEnumerable<TAggregate> FindAll()
+        public IEnumerable<TAggregate> FindAll(string wheresql = "", object obj = null)
         {
             using (var conn = DbClient.GetConnection())
             {
